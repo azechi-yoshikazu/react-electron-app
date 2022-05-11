@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "react-electron-app-installer", "react-electron-app-installer\react-electron-app-installer.vdproj", "{EC7034C1-19A0-4B54-A41E-F8ABBBE08DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7034C1-19A0-4B54-A41E-F8ABBBE08DC3}.Debug|Default.ActiveCfg = Debug
+		{EC7034C1-19A0-4B54-A41E-F8ABBBE08DC3}.Debug|Default.Build.0 = Debug
+		{EC7034C1-19A0-4B54-A41E-F8ABBBE08DC3}.Release|Default.ActiveCfg = Release
+		{EC7034C1-19A0-4B54-A41E-F8ABBBE08DC3}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D00F67D2-B7F6-49ED-9C24-F90082E11981}
+	EndGlobalSection
+EndGlobal
