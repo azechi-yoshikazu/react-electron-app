@@ -1,0 +1,49 @@
+{
+  "name": "react-electron-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^2.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "electron-dev": "set ELECTRON_LAUNCH_URL=http://localhost:3000 && electron public",
+    "electron-build": "electron-packager build --platform=all --overwrite --asar",
+
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+
+    "start": "concurrently \"npm run react-start\" \"npm run electron-dev\"",
+
+    "build": "npm run react-build && npm run electron-build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "electron": "^18.2.0",
+    "electron-packager": "^15.5.1"
+  }
+}
